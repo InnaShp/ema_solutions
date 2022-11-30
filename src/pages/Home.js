@@ -1,5 +1,6 @@
 import React from "react";
 import "./Home.css";
+import Declaration from "./Declaration";
 
 export default function Home() {
   return (
@@ -20,7 +21,7 @@ export default function Home() {
         </p>
         <a href="/">Докладніше</a>
       </section>
-      
+      <Declaration />
     </div>
   
     

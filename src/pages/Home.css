@@ -74,6 +74,7 @@
   transition: all 300ms ease-in-out;
   padding: 7px 6px;
   margin-top: 10px;
+  margin-bottom: 40px;
 }
 .text a:hover {
   background-color: #000;

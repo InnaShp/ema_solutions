@@ -1,0 +1,58 @@
+.Declaration h3 {
+  color: rgb(15, 9, 161);
+  font-size: 30px;
+  line-height: 39px;
+  letter-spacing: 0.3px;
+  text-align: center;
+}
+.Declaration .declaration-row {
+  margin-left: 150px;
+}
+
+
+.Declaration .contents {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 8px;
+  background: rgb(232, 230, 230);
+  width: 317px;
+  height: 216px;
+  padding: 0;
+  
+}
+.Declaration .pdf-link {
+  color: #000;
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 30px;
+
+}
+
+.Declaration p {
+  font-size: 14px;
+  margin-top: 30px;
+  line-height: normal;
+  color: #000;
+}
+.Declaration .download-button button {
+  border: 1px solid #c7c7c7;
+  background: rgb(232, 230, 230);
+  width: 43px;
+  height: 43px;
+  margin-top: 26px;
+}
+
+.Declaration .download-button .button-correction {
+  position: relative;
+  bottom: 15px;
+}
+.Declaration .download-button button .icon {
+  width: 31px;
+  height: 31px;
+  transition: all 250ms ease-in-out;
+}
+
+.Declaration .download-button button .icon:hover {
+  height: 25px;
+}
