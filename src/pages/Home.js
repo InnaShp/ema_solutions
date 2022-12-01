@@ -2,6 +2,7 @@ import React from "react";
 import "./Home.css";
 import Declaration from "./Declaration";
 import ForElectricityConsumers from "./ForElectricityConsumers";
+import DocumentsElectricity from "./DocumentsElectricity";
 
 export default function Home() {
   return (
@@ -24,6 +25,7 @@ export default function Home() {
       </section>
       <Declaration />
       <ForElectricityConsumers />
+      <DocumentsElectricity />
     </div>
   
     
