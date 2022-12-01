@@ -29,7 +29,7 @@ export default function Declaration() {
       <h3>
         Для укладання договору ознайомтесь, оберіть свою <br /> комерційну пропозицію та заповніть заяву-приєднання
       </h3>
-      <AnimationOnScroll animateIn="animate__fadeIn" className="animate__slow	1s " >
+      <AnimationOnScroll animateIn="animate__fadeIn" className="animate__slow	0.5s" >
         <div class="container text-center mt-3">
           <div className="row declaration-row">
             <div className="col-4 contents">

@@ -1,6 +1,7 @@
 import React from "react";
 import "./Home.css";
 import Declaration from "./Declaration";
+import ForElectricityConsumers from "./ForElectricityConsumers";
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
         <a href="/">Докладніше</a>
       </section>
       <Declaration />
+      <ForElectricityConsumers />
     </div>
   
     
