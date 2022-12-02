@@ -3,11 +3,11 @@ import './App.css';
 
 import Navbar from "./Navbar"
 import ToConsumer from "./pages/ToConsumer"
-import Home from "./pages/Home"
+import Home from "./Home"
 import About from "./pages/About"
 import { Route, Routes } from "react-router-dom"
 
-function App() {
+const App = () => {
   return (
     <div className="App">
       <Navbar />
@@ -22,4 +22,4 @@ function App() {
   )
 }
 
-export default App
+export default App;

@@ -1,7 +1,7 @@
 import React from "react";
-import "./ForElectricityConsumers.css";
+import "./style/ForElectricityConsumers.css";
 
-export default function ForElectricityConsumers() {
+const ForElectricityConsumers = () => {
   return(
     <section className="ForElectricityConsumers">
       <h2>Для споживачів електроенергії</h2>
@@ -46,3 +46,5 @@ export default function ForElectricityConsumers() {
     </section>
   );
 }
+
+export default ForElectricityConsumers;

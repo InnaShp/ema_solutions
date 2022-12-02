@@ -1,9 +1,9 @@
 import React from "react";
-import "./DocumentsElectricity.css";
+import "./style/ListOfResolutions.css";
 
-export default function DocumentsElectricity() {
+const ListOfResolutions = () => {
   return(
-    <section className="DocumentsElectricity">
+    <section className="ListOfResolutions">
       <h2>ОФІЦІЙНІ ДОКУМЕНТИ ЕЛЕКТРОЕНЕРГІЯ</h2>
       <ul>
         <li>
@@ -55,3 +55,5 @@ export default function DocumentsElectricity() {
     </section>
   );
 }
+
+export default ListOfResolutions;

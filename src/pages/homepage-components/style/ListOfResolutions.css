@@ -1,11 +1,11 @@
-.DocumentsElectricity {
+.ListOfResolutions {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-image: url("../images/background-electricity.webp");
+  background-image: url("./background-electricity.webp");
   background-size: 100% 100%;
 }
-.DocumentsElectricity h2 {
+.ListOfResolutions h2 {
   background-color: transparent;
   background-image: linear-gradient(90deg, rgba(255,255,255,0.45) 0%, #FFEBFF 100%);
   color: rgb(15, 9, 161);
@@ -15,24 +15,22 @@
   padding: 28px 0;
   text-align: center;
 }
-.DocumentsElectricity ul {
+.ListOfResolutions ul {
   text-align: center;
   margin: 15px 0 7px;
   padding: 0;
   width: 980px;
 }
-.DocumentsElectricity li {
+.ListOfResolutions li {
   list-style: none;
   background-color: rgba(230, 226, 226, 0.75);
   margin: 10px;
   padding: 3px 0;
 }
-.DocumentsElectricity li a {
+.ListOfResolutions li a {
   font-size: 25px;
   line-height: 45px;
   color: rgb(5, 3, 44);
   text-decoration-color: rgb(5, 3, 44);
-  
-  
 }
 

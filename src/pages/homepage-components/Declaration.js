@@ -1,27 +1,26 @@
 import React from "react";
-import "./Declaration.css";
+import "./style/Declaration.css";
 
-import publicAgreementDoc from "./files/ЕМА_СОЛЮШЕНЗ_Договір публічний.docx";
-import publicAgreementPdf from "./files/pdf/ЕМА_СОЛЮШЕНЗ_Договір публічний.pdf";
+import publicAgreementDoc from "./electricity_agreement_files/ЕМА_СОЛЮШЕНЗ_Договір публічний.docx";
+import publicAgreementPdf from "./electricity_agreement_files/pdf/ЕМА_СОЛЮШЕНЗ_Договір публічний.pdf";
 
-import joiningApplicationDoc from "./files/ЕМА_СОЛЮШЕНЗ_Додаток_1_до_договору_заява_приєднання_з_додатками.docx";
-import joiningApplicationPdf from "./files/pdf/ЕМА_СОЛЮШЕНЗ_Додаток_1_до_договору_заява_приєднання_з_додатками.pdf";
+import joiningApplicationDoc from "./electricity_agreement_files/ЕМА_СОЛЮШЕНЗ_Додаток_1_до_договору_заява_приєднання_з_додатками.docx";
+import joiningApplicationPdf from "./electricity_agreement_files/pdf/ЕМА_СОЛЮШЕНЗ_Додаток_1_до_договору_заява_приєднання_з_додатками.pdf";
 
-import prePaymentDoc from "./files/ЕМА_СОЛЮШЕНЗ_Фіксована_на_місяця_попередня_оплата_КП_№1.docx";
-import prePaymentPdf from "./files/pdf/ЕМА_СОЛЮШЕНЗ_Фіксована_на_місяця_попередня_оплата_КП_№1.pdf";
+import prePaymentDoc from "./electricity_agreement_files/ЕМА_СОЛЮШЕНЗ_Фіксована_на_місяця_попередня_оплата_КП_№1.docx";
+import prePaymentPdf from "./electricity_agreement_files/pdf/ЕМА_СОЛЮШЕНЗ_Фіксована_на_місяця_попередня_оплата_КП_№1.pdf";
 
-import postpaidDoc from "./files/ЕМА_СОЛЮШЕНЗ_Фіксована_на_місяць_післяплата_КП_№2.docx";
-import postpaidPdf from "./files/pdf/ЕМА_СОЛЮШЕНЗ_Фіксована_на_місяць_післяплата_КП_№2.pdf";
+import postpaidDoc from "./electricity_agreement_files/ЕМА_СОЛЮШЕНЗ_Фіксована_на_місяць_післяплата_КП_№2.docx";
+import postpaidPdf from "./electricity_agreement_files/pdf/ЕМА_СОЛЮШЕНЗ_Фіксована_на_місяць_післяплата_КП_№2.pdf";
 
-import threatDoc from "./files/ЕМА_СОЛЮШЕНЗ_ПРО_ЗАГРОЗУ_ЕЛЕКТРОБЕЗПЕЦІ_ТА_ЇХ_РОЗГЛЯД.docx";
-import threatPdf from "./files/pdf/ЕМА_СОЛЮШЕНЗ_ПРО_ЗАГРОЗУ_ЕЛЕКТРОБЕЗПЕЦІ_ТА_ЇХ_РОЗГЛЯД.pdf";
+import threatDoc from "./electricity_agreement_files/ЕМА_СОЛЮШЕНЗ_ПРО_ЗАГРОЗУ_ЕЛЕКТРОБЕЗПЕЦІ_ТА_ЇХ_РОЗГЛЯД.docx";
+import threatPdf from "./electricity_agreement_files/pdf/ЕМА_СОЛЮШЕНЗ_ПРО_ЗАГРОЗУ_ЕЛЕКТРОБЕЗПЕЦІ_ТА_ЇХ_РОЗГЛЯД.pdf";
 
-import disputesDoc from "./files/ЕМА_СОЛЮШЕНЗ_Порядок вирішення спорів ее.docx";
-import disputesPdf from "./files/pdf/ЕМА_СОЛЮШЕНЗ_Порядок вирішення спорів ее.pdf";
+import disputesDoc from "./electricity_agreement_files/ЕМА_СОЛЮШЕНЗ_Порядок вирішення спорів ее.docx";
+import disputesPdf from "./electricity_agreement_files/pdf/ЕМА_СОЛЮШЕНЗ_Порядок вирішення спорів ее.pdf";
 
 import "animate.css/animate.min.css";
 import { AnimationOnScroll } from 'react-animation-on-scroll';
-
 
 export default function Declaration() {
   return (
@@ -29,7 +28,7 @@ export default function Declaration() {
       <h3>
         Для укладання договору ознайомтесь, оберіть свою <br /> комерційну пропозицію та заповніть заяву-приєднання
       </h3>
-      <AnimationOnScroll animateIn="animate__fadeIn" className="animate__slow	0.5s" >
+      <AnimationOnScroll animateIn="animate__fadeIn" className="animate__slow	0.5s">
         <div class="container text-center mt-3">
           <div className="row declaration-row">
             <div className="col-4 contents">
