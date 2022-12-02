@@ -4,6 +4,7 @@
   line-height: 39px;
   letter-spacing: 0.3px;
   text-align: center;
+  margin-bottom: 8px;
 }
 .Declaration .declaration-row {
   margin-left: 150px;
@@ -26,7 +27,21 @@
   font-size: 20px;
   font-weight: 700;
   margin-top: 30px;
+}
+.Declaration .special {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 170px;
+  padding: 0 30px;
+}
 
+.Declaration .special .pdf-link {
+  margin: 0;
+  padding-top: 20px;
+}
+.Declaration .special .download-button button {
+  margin: 0 0 12px 0;
 }
 
 .Declaration p {

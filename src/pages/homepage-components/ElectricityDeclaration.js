@@ -22,7 +22,7 @@ import disputesPdf from "./electricity_agreement_files/pdf/ЕМА_СОЛЮШЕН
 import "animate.css/animate.min.css";
 import { AnimationOnScroll } from 'react-animation-on-scroll';
 
-export default function Declaration() {
+const ElectricityDeclaration = () => {
   return (
     <section className="Declaration">
       <h3>
@@ -124,3 +124,5 @@ export default function Declaration() {
     </section>
   )
 }
+
+export default ElectricityDeclaration;

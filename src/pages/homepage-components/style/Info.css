@@ -33,6 +33,9 @@
   justify-content: center;
   margin-bottom: 100px;
 }
+.special {
+  margin-bottom: 40px;
+}
 
 .text p {
   font-size: 14px;
