@@ -1,44 +1,49 @@
-.ForElectricityConsumers {
+.ForConsumers {
   background: rgb(232, 230, 230);
   margin: 30px 90px 0;
   color: #000;
-
   padding-left: 200px;
 }
-.ForElectricityConsumers h2 {
+.ForConsumers h2 {
   color: rgb(15, 9, 161);
   font-size: 38px;
   font-weight: 700;
   line-height: normal;
   padding-top: 40px;
 }
-.ForElectricityConsumers ul {
+.ForConsumers small {
+  color: rgb(15, 9, 161);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: normal;
+}
+.ForConsumers ul {
   padding: 0 0 60px 0;
   margin: 0;
 }
-.ForElectricityConsumers li {
+.ForConsumers li {
   list-style: none;
   padding-top: 50px;
 }
-.ForElectricityConsumers li .name {
+.ForConsumers li .name {
   font-size: 20px;
   font-weight: 700;
   line-height: 29px;
   padding: 0;
   padding-right: 50px;
 }
-.ForElectricityConsumers li .disputes {
+.ForConsumers li .disputes {
   font-family: 'Oswald', sans-serif;
   padding-right: 60px;
 
 }
-.ForElectricityConsumers p {
+.ForConsumers p {
   font-size: 16px;
   line-height: 29px;
   text-align: start;
   margin: 0;
   padding: 0;
-  width: 500px;
+  width: 520px;
   position: relative;
   right: 50px;
 }

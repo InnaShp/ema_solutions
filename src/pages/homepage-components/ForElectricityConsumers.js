@@ -1,9 +1,9 @@
 import React from "react";
-import "./style/ForElectricityConsumers.css";
+import "./style/ForConsumers.css";
 
 const ForElectricityConsumers = () => {
   return(
-    <section className="ForElectricityConsumers">
+    <section className="ForConsumers">
       <h2>Для споживачів електроенергії</h2>
       <ul>
         <li className="row">

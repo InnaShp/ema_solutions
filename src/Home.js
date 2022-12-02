@@ -7,6 +7,7 @@ import Hero from "./pages/homepage-components/Hero";
 import ElectricityInfo from "./pages/homepage-components/ElectricityInfo";
 import NaturalGasInfo from "./pages/homepage-components/NaturalGasInfo";
 import GasDeclaration from "./pages/homepage-components/GasDeclaration";
+import ForGasConsumers from "./pages/homepage-components/ForGasConsumers";
 
 const Home = () => {
   return (
@@ -18,6 +19,7 @@ const Home = () => {
       <ListOfResolutions />
       <NaturalGasInfo />
       <GasDeclaration />
+      <ForGasConsumers />
     </main>
   );
 }
