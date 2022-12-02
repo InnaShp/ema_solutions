@@ -1,9 +1,9 @@
 import React from "react";
 import "./style/ListOfResolutions.css";
 
-const ListOfResolutions = () => {
+const ListOfResolutionsElectricity = () => {
   return(
-    <section className="ListOfResolutions">
+    <section className="ListOfResolutions Electricity">
       <h2>ОФІЦІЙНІ ДОКУМЕНТИ ЕЛЕКТРОЕНЕРГІЯ</h2>
       <ul>
         <li>
@@ -56,4 +56,4 @@ const ListOfResolutions = () => {
   );
 }
 
-export default ListOfResolutions;
+export default ListOfResolutionsElectricity;
