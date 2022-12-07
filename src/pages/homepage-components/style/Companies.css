@@ -1,0 +1,16 @@
+.Companies {
+  height: 180px;
+  
+}
+.Companies .images-group {
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+  align-content: space-around;
+  align-items: center;
+  justify-content: center;
+}
+.Companies .images-group img {
+  margin: 0 35px;
+  text-align: center;
+}

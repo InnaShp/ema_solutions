@@ -1,6 +1,4 @@
 .ContactForm .form {
-  display: grid;
-  grid-template-rows: 2fr 2fr 2fr 2fr 2fr 2fr;
   max-width: 460px;
 }
 .ContactForm .data-field {

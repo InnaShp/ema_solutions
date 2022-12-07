@@ -9,19 +9,11 @@ import ogts from "./style/companies-logo/ogts.gif";
 const Companies = () => {
   return (
     <section className="Companies">
-      <div className="row">
-        <div className="col">
-          <img src={NKREKP} alt="NKREKP.png" />
-        </div>
-        <div className="col">
-          <img src={OPERATOR} alt="OPERATOR.png" />
-        </div>
-        <div className="col">
-          <img src={energy} alt="ua energy.png" />
-        </div>
-        <div className="col">
-          <img src={ogts} alt="ogts.gif" />
-        </div>
+      <div className="images-group">
+        <img src={NKREKP} alt="NKREKP.png" width={140} height={140} />
+        <img src={OPERATOR} alt="OPERATOR.png" width={140} height={120} className="image" />
+        <img src={energy} alt="ua energy.png" width={150} height={120} className="image" />
+        <img src={ogts} alt="ogts.gif" width={144} height={76} className="image" />
       </div>
     </section>
   );

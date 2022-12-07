@@ -5,7 +5,7 @@ import "./style/Contact.css";
 const Contact = () => {
   return (
     <section className="Contact">
-      <div className="row">
+      <div className="row m-0">
         <div className="col">
           <h4>З нами дуже легко зв'язатися</h4>
           <ul>
