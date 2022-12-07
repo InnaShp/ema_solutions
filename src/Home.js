@@ -9,6 +9,8 @@ import NaturalGasInfo from "./pages/homepage-components/NaturalGasInfo";
 import GasDeclaration from "./pages/homepage-components/GasDeclaration";
 import ForGasConsumers from "./pages/homepage-components/ForGasConsumers";
 import ListOfResolutionsGas from "./pages/homepage-components/ListOfResolutionsGas";
+import Contact from "./pages/homepage-components/Contact";
+import Companies from "./pages/homepage-components/Companies";
 
 const Home = () => {
   return (
@@ -22,6 +24,8 @@ const Home = () => {
       <GasDeclaration />
       <ForGasConsumers />
       <ListOfResolutionsGas />
+      <Contact />
+      <Companies />
     </main>
   );
 }

@@ -1,0 +1,30 @@
+.Contact {
+  background-color: #555555;
+  color: #fff;
+  height: 736px;
+}
+.Contact .col {
+  max-width: 460px;
+  margin: 120px 88px 0;
+}
+.Contact h4 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 56px;
+  margin-bottom: 30px;
+}
+.Contact ul {
+  padding: 0;
+}
+.Contact li {
+  list-style: none;
+  margin-top: 20px;
+  font-size: 15px;
+  line-height: 28px;
+}
+.Contact .work-hours {
+  font-family: avenir-lt-w01_35-light1475496;
+}
+.Contact a {
+  color: #fff;
+}
