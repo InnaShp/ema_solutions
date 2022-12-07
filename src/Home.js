@@ -11,6 +11,7 @@ import ForGasConsumers from "./pages/homepage-components/ForGasConsumers";
 import ListOfResolutionsGas from "./pages/homepage-components/ListOfResolutionsGas";
 import Contact from "./pages/homepage-components/Contact";
 import Companies from "./pages/homepage-components/Companies";
+import Footer from "./pages/homepage-components/Footer";
 
 const Home = () => {
   return (
@@ -26,6 +27,7 @@ const Home = () => {
       <ListOfResolutionsGas />
       <Contact />
       <Companies />
+      <Footer />
     </main>
   );
 }

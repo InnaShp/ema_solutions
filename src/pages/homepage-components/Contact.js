@@ -15,7 +15,7 @@ const Contact = () => {
             <li>
               <a href="mailto:ema.office.ua@gmail.com" target="_self">ema.office.ua@gmail.com</a>
             </li>
-            <li>Тел: +38(050)-389-33-88</li>
+            <li>Тел:<span className="number">+38(050)-389-33-88</span></li>
             <li className="work-hours"><div className="fw-bold">РЕЖИМ РОБОТИ:</div>Понеділок – П’ятниця: 09:00-18:00 <br /> Субота – Неділя: вихідний</li>
           </ul>
         </div>

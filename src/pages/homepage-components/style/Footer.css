@@ -1,0 +1,31 @@
+.Footer {
+  height: 100px;
+  background-color: #c7c7c7;
+  color: #000;
+  border-top: 5px solid #000;
+}
+.Footer .content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: space-around;
+  justify-content: center;
+  font-size: 15px;
+}
+.Footer .work-hours {
+  font-family: avenir-lt-w01_35-light1475496;
+  
+  line-height: 22px;
+}
+.Footer .phone-number a {
+  color: #000;
+  text-decoration: none;
+}
+.Footer .phone-number a .number {
+text-decoration: underline;
+font-size: 14px;
+font-family: Arial,Helvetica,sans-serif;
+}
+.Footer .address {
+  font-family: Arial,Helvetica,sans-serif;
+}

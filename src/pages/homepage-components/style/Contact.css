@@ -22,9 +22,15 @@
   font-size: 15px;
   line-height: 28px;
 }
+.Contact li .number {
+  font-family: Helvetica,sans-serif;
+  font-size: 14px;
+}
 .Contact .work-hours {
   font-family: avenir-lt-w01_35-light1475496;
+  line-height: 22px;
 }
+
 .Contact a {
   color: #fff;
 }
