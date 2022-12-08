@@ -3,9 +3,10 @@ import './App.css';
 
 import Navbar from "./Navbar"
 import ToConsumer from "./pages/ToConsumer"
-import Home from "./Home"
+import Home from "./pages/Home"
 import About from "./pages/About"
 import { Route, Routes } from "react-router-dom"
+import Footer from "./pages/homepage-components/Footer";
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
           <Route path="/toConsumer" element={<ToConsumer />} />
           <Route path="/about" element={<About />} />
         </Routes>
+        <Footer />
       </div>
     </div>
   )
