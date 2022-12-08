@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef } from "react";
 
 import ElectricityDeclaration from "./pages/homepage-components/ElectricityDeclaration";
 import ForElectricityConsumers from "./pages/homepage-components/ForElectricityConsumers";
@@ -14,18 +14,22 @@ import Companies from "./pages/homepage-components/Companies";
 import Footer from "./pages/homepage-components/Footer";
 
 const Home = () => {
+  const contactRef = useRef(null);
+  const electricityDeclarationRef = useRef(null);
+  const gasDeclarationRef = useRef(null);
+
   return (
     <main className="Homepage">
-      <Hero />
-      <ElectricityInfo />
-      <ElectricityDeclaration />
+      <Hero contactRef={contactRef} />
+      <ElectricityInfo electricityDeclarationRef={electricityDeclarationRef} />
+      <ElectricityDeclaration ref={electricityDeclarationRef} />
       <ForElectricityConsumers />
       <ListOfResolutionsElectricity />
-      <NaturalGasInfo />
-      <GasDeclaration />
+      <NaturalGasInfo gasDeclarationRef={gasDeclarationRef} />
+      <GasDeclaration ref={gasDeclarationRef} />
       <ForGasConsumers />
       <ListOfResolutionsGas />
-      <Contact />
+      <Contact ref={contactRef} />
       <Companies />
       <Footer />
     </main>

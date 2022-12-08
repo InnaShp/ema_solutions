@@ -21,16 +21,15 @@
   text-shadow: #ffffff -1px -1px 0px, #ffffff -1px 1px 0px, #ffffff 1px 1px 0px, #ffffff 1px -1px 0px;
   font-size: 15px;
 }
-.Hero a {
+.Hero button {
   background-color: rgba(117, 117, 117);
   font-size: 14px;
-  text-decoration: none;
   border: 1px solid #fff;
   padding: 11px 30px;
   color: #000;
   transition: all 200ms ease-in-out;
 }
-.Hero a:hover {
+.Hero button:hover {
   background-color: #fff;
   border: 1px solid #000;
   color: rgba(15, 9, 157);

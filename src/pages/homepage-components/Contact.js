@@ -1,10 +1,11 @@
-import React from "react";
+import React, { forwardRef } from "react";
 import ContactForm from "./ContactForm";
 import "./style/Contact.css";
 
-const Contact = () => {
+const Contact = forwardRef((props, ref) => {
+
   return (
-    <section className="Contact">
+    <section className="Contact" ref={ref}>
       <div className="row m-0">
         <div className="col">
           <h4>З нами дуже легко зв'язатися</h4>
@@ -25,6 +26,6 @@ const Contact = () => {
       </div>
     </section>
   );
-}
+});
 
 export default Contact;

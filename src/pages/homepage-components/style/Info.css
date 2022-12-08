@@ -44,7 +44,7 @@
   width: 780px;
 }
 
-.text a {
+.text button {
   border: 1px solid #000;
   text-decoration: none;
   color: #000;
@@ -55,7 +55,7 @@
   margin-bottom: 40px;
 }
 
-.text a:hover {
+.text button:hover {
   background-color: #000;
   color: #fff;
 }

@@ -16,11 +16,11 @@ export default function Navbar() {
       <div className="menu">
         <ul>
           <CustomLink to="/" className="main">Головна</CustomLink>
-          <div class="vl"></div>
+          <div className="vl"></div>
           <CustomLink to="/">Електроенергія</CustomLink>
-          <div class="vl"></div>
+          <div className="vl"></div>
           <CustomLink to="/">Газ</CustomLink>
-          <div class="vl"></div>
+          <div className="vl"></div>
           <div className="dropdown-link">
             <NavDropdown title="Споживачу" id="basic-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">
@@ -43,10 +43,10 @@ export default function Navbar() {
             </NavDropdown>
           </div>
           
-          <div class="vl"></div>
+          <div className="vl"></div>
           
           <CustomLink to="/">Контакти</CustomLink>
-          <div class="vl"></div>
+          <div className="vl"></div>
           <div className="dropdown-link">
             <NavDropdown title="Еще" id="basic-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">
