@@ -1,0 +1,29 @@
+.GeneralInfo {
+  height: 340px;
+  padding: 70px 0 ;
+}
+.GeneralInfo h1 {
+  color: rgb(15, 9, 161);
+  font-size: 56px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.GeneralInfo p {
+  font-size: 18px;
+  line-height: 32px;
+  font-weight: bold;
+  margin-bottom: 60px;
+}
+.GeneralInfo button {
+  color: #fff;
+  font-size: 14px;
+  height: 40px;
+  width: 142px;
+  border: 1px solid #180df1;
+  background-color: #180df1;
+  transition: all 150ms ease-in-out;
+}
+.GeneralInfo button:hover {
+  background-color: #fff;
+  color: #180df1;
+}

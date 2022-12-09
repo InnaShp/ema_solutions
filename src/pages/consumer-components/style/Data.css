@@ -1,0 +1,24 @@
+.Data {
+  margin: 70px 0 90px;
+  max-width: 700px;
+}
+.Data h2 {
+  color: rgb(15, 9, 161);
+  font-size: 30px;
+  font-weight: 700;
+  margin: 0;
+}
+.Data ul {
+  margin: 0;
+  padding: 0;
+}
+.Data li {
+  list-style: none;
+  padding: 0;
+  margin: 40px 15px;
+}
+.Data li a {
+  color: #000;
+  font-size: 14px;
+  line-height: 22px;
+}
