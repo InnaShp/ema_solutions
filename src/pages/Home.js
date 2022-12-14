@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React, { useRef, forwardRef } from "react";
 
 import ElectricityDeclaration from "./homepage-components/ElectricityDeclaration";
 import ForElectricityConsumers from "./homepage-components/ForElectricityConsumers";
@@ -12,13 +12,13 @@ import ListOfResolutionsGas from "./homepage-components/ListOfResolutionsGas";
 import Contact from "./homepage-components/Contact";
 import Companies from "./homepage-components/Companies";
 
-const Home = () => {
+const Home = forwardRef((props, ref) => {
   const contactRef = useRef(null);
   const electricityDeclarationRef = useRef(null);
   const gasDeclarationRef = useRef(null);
 
   return (
-    <main className="Homepage">
+    <main className="Homepage" ref={ref}>
       <Hero contactRef={contactRef} />
       <ElectricityInfo electricityDeclarationRef={electricityDeclarationRef} />
       <ElectricityDeclaration ref={electricityDeclarationRef} />
@@ -32,6 +32,6 @@ const Home = () => {
       <Companies />
     </main>
   );
-}
+});
 
 export default Home;

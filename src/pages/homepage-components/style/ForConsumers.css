@@ -2,7 +2,9 @@
   background: rgb(232, 230, 230);
   margin: 30px 90px 0;
   color: #000;
-  padding-left: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .ForConsumers h2 {
   color: rgb(15, 9, 161);
@@ -10,6 +12,7 @@
   font-weight: 700;
   line-height: normal;
   padding-top: 40px;
+  text-align: center;
 }
 .ForConsumers small {
   color: rgb(15, 9, 161);
@@ -21,6 +24,12 @@
   padding: 0 0 60px 0;
   margin: 0;
 }
+.ForConsumers .group {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+}
+
 .ForConsumers li {
   list-style: none;
   padding-top: 50px;
@@ -30,7 +39,8 @@
   font-weight: 700;
   line-height: 29px;
   padding: 0;
-  padding-right: 50px;
+  width: 226px;
+
 }
 .ForConsumers li .disputes {
   font-family: 'Oswald', sans-serif;
@@ -44,6 +54,4 @@
   margin: 0;
   padding: 0;
   width: 520px;
-  position: relative;
-  right: 50px;
 }

@@ -5,7 +5,6 @@ const Hero = ({ contactRef }) => {
   const onClick = () => {
     contactRef.current.scrollIntoView({ behavior: "smooth" });
   };
-
   return (
     <section className="Hero">
       <div>

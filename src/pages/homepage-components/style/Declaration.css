@@ -1,3 +1,4 @@
+
 .Declaration h3 {
   color: rgb(15, 9, 161);
   font-size: 30px;
@@ -6,11 +7,16 @@
   text-align: center;
   margin-bottom: 8px;
 }
-.Declaration .declaration-row {
-  margin-left: 150px;
+
+.Declaration .group {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
 }
-
-
+.Declaration .group-item {
+  display: flex;
+  flex-direction: column;
+}
 .Declaration .contents {
   display: flex;
   flex-direction: column;
@@ -20,6 +26,7 @@
   width: 317px;
   height: 216px;
   padding: 0;
+  text-align: center;
   
 }
 .Declaration .pdf-link {
