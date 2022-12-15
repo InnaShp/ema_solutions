@@ -44,7 +44,7 @@ const ContactForm = () => {
     <div className="ContactForm">
       <form className="form" onSubmit={onSubmit}>
         <div className="row">
-          <div className="row mb-3">
+          <div className="row mb-3 p-0">
             <div className="col-6">
               <label className="form-label" htmlFor="firstName">Ім'я</label>
               <input className="form__input" type="text" required onChange = {(e) => handleInputChange(e)} id="firstName" />        
@@ -54,7 +54,7 @@ const ContactForm = () => {
               <input  type="text" id="lastName" className="form__input" required onChange = {(e) => handleInputChange(e)} /> 
             </div>
           </div>
-          <div className="row mb-3">
+          <div className="row mb-3 p-0">
             <div className="col-6">
               <label className="form-label" htmlFor="email">Ел. пошта</label>
               <input  type="email" id="email" className="form__input" required onChange = {(e) => handleInputChange(e)} />

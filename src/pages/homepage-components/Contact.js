@@ -6,8 +6,8 @@ const Contact = forwardRef((props, ref) => {
 
   return (
     <section className="Contact" ref={ref}>
-      <div className="row m-0">
-        <div className="col">
+      <div className="group m-0">
+        <div className="group-item">
           <h4>З нами дуже легко зв'язатися</h4>
           <ul>
             <li>Заповніть форму, ми вам зателефонуємо!</li>
@@ -20,7 +20,7 @@ const Contact = forwardRef((props, ref) => {
             <li className="work-hours"><div className="fw-bold">РЕЖИМ РОБОТИ:</div>Понеділок – П’ятниця: 09:00-18:00 <br /> Субота – Неділя: вихідний</li>
           </ul>
         </div>
-        <div className="col">
+        <div className="group-item">
           <ContactForm />
         </div>
       </div>
