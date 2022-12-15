@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React from "react";
 import './App.css';
 
 import Navbar from "./Navbar"
@@ -9,15 +9,14 @@ import { Route, Routes } from "react-router-dom"
 import Footer from "./pages/homepage-components/Footer";
 
 const App = () => {
-  const feedbackRef = useRef(null);
   return (
     <div className="App">
       <Navbar />
       <div>
         <Routes>
-          <Route path="/" element={<Home ref={feedbackRef} />} />
+          <Route path="/" element={<Home />} />
           <Route path="/toConsumer" element={<ToConsumer />} />
-          <Route path="/about" element={<About feedbackRef={feedbackRef} />} />
+          <Route path="/about" element={<About />} />
         </Routes>
         <Footer />
       </div>

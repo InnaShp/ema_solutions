@@ -1,4 +1,4 @@
-import React, { forwardRef }  from "react";
+import React from "react";
 import "./style/Declaration.css";
 
 import publicAgreementDoc from "./electricity_agreement_files/ЕМА_СОЛЮШЕНЗ_Договір публічний.docx";
@@ -22,9 +22,9 @@ import disputesPdf from "./electricity_agreement_files/pdf/ЕМА_СОЛЮШЕН
 import "animate.css/animate.min.css";
 import { AnimationOnScroll } from 'react-animation-on-scroll';
 
-const ElectricityDeclaration = forwardRef((props, ref) => {
+const ElectricityDeclaration = () => {
   return (
-    <section className="Declaration" ref={ref}>
+    <section className="Declaration" id="electricity-declaration">
       <h3>
         Для укладання договору ознайомтесь, оберіть свою <br /> комерційну пропозицію та заповніть заяву-приєднання
       </h3>
@@ -124,6 +124,6 @@ const ElectricityDeclaration = forwardRef((props, ref) => {
       </AnimationOnScroll>
     </section>
   )
-});
+}
 
 export default ElectricityDeclaration;

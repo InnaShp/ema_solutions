@@ -5,19 +5,17 @@ import AboutHero from "./about-components/AboutHero";
 import AboutInfo from "./about-components/AboutInfo";
 import AboutLicenses from "./about-components/AboutLicenses";
 
-const About = ({ feedbackRef }) => {
-  const onClick = () => {
-    feedbackRef.current.scrollIntoView({ behavior: "smooth" });
-  };
+const About = () => {
+ 
   return (
-    <main>
+    <main id="about">
       <div>
         <AboutInfo />
         <AboutHero />
         <AboutLicenses />
-        <section className="Feedback">
+        <section className="Feedback" id="feedback">
           <h2>Зворотній зв'язок</h2>
-          <button onClick={onClick}>Контакти</button>
+          <a href="./#contact">Контакти</a>
         </section>
       </div>
     </main>

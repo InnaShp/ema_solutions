@@ -60,7 +60,10 @@
   font-weight: 700;
   line-height: 38px;
 }
-.Feedback button {
+.Feedback a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   height: 40px;
   width: 173px;
   font-size: 14px;
@@ -69,6 +72,6 @@
   background-color: #fff;
   margin-top: 50px;
 }
-.Feedback button:hover {
+.Feedback a:hover {
   color: rgb(15, 9, 161);;
 }

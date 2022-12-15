@@ -1,13 +1,10 @@
 import React from "react";
 import "./style/Info.css";
 
-const ElectricityInfo = ({ electricityDeclarationRef }) => {
-  const onClick = () => {
-    electricityDeclarationRef.current.scrollIntoView({ behavior: "smooth" });
-  };
+const ElectricityInfo = () => {
 
   return (
-    <section className="ElectricityInfo">
+    <section className="ElectricityInfo" id="electricity">
       <div className="hero-2">
         <h2>ПОСТАЧАЛЬНИК ЕЛЕКТРИЧНОЇ ЕНЕРГІЇ <br /> ДЛЯ БІЗНЕСУ ТА ПІДПРИЄМСТВ</h2>
       </div>
@@ -15,7 +12,7 @@ const ElectricityInfo = ({ electricityDeclarationRef }) => {
         <p>
           Будь-який бізнес незалежно від того, якого обсягу його промисловість та направленість (малий чи середній, готелі, пекарні, тощо) у процесі своєї діяльності зацікавлений не тільки у розвитку та отриманні прибутку, а й в оптимізації витрат. Одним із ключових напрямів для підвищення ефективності діяльності як промислових, так і непромислових підприємств є зниження витрат на закупівлю енергетичних ресурсів. Найбільш розповсюдженим видом таких ресурсів не тільки в Україні, а й в усьому світі є електрична енергія, яка використовується в усіх напрямках промислової діяльності. Саме тому, важливим питанням для будь-якого підприємця залишається вибір надійного та незалежного постачальника електроенергії в Україні.
         </p>
-        <button onClick={onClick}>Докладніше</button>
+        <a href="#electricity-declaration">Докладніше</a>
       </div>
     </section>
   );

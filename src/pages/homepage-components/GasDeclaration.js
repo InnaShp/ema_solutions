@@ -1,4 +1,4 @@
-import React, { forwardRef } from "react";
+import React from "react";
 import "./style/Declaration.css";
 
 import "animate.css/animate.min.css";
@@ -18,9 +18,9 @@ import pricingPdf from "./gas-agreement-files/pdf/Ціна на природни
 
 
 
-const GasDeclaration = forwardRef((props, ref) => {
+const GasDeclaration = () => {
   return (
-    <section className="Declaration" ref={ref}>
+    <section className="Declaration" id="gas-declaration">
       <h3>
         Укласти договір постачання природного газу
       </h3>
@@ -141,6 +141,6 @@ const GasDeclaration = forwardRef((props, ref) => {
       </AnimationOnScroll>
     </section>
   );
-});
+}
 
 export default GasDeclaration;
