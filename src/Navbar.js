@@ -1,9 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Navbar.css";
 import logo from "./images/logo.png";
 import NavDropdown from 'react-bootstrap/NavDropdown';
+import SideBar from "./SideBar";
+
+
 
 export default function Navbar() {
+  const [sideBar, setSidebar] = useState(false);
+
   return (
     <nav className="nav">
       <div>
@@ -14,11 +19,11 @@ export default function Navbar() {
       </div>
       <div className="menu">
         <a className="main" href="/#hero">Головна</a>
-        <div className="vl"></div>
+        <div className="vl"/>
         <a href="/#electricity">Електроенергія</a>
-        <div className="vl"></div>
+        <div className="vl"/>
         <a href="/#gas">Газ</a>
-        <div className="vl"></div>
+        <div className="vl"/>
         <div className="dropdown-link">
           <NavDropdown title="Споживачу" id="basic-nav-dropdown">
             <NavDropdown.Item href="#action/3.1">
@@ -53,7 +58,17 @@ export default function Navbar() {
           </NavDropdown>
         </div>
       </div>
+      <div className="sideBarButton">
+        {sideBar &&
+          <SideBar/>
+        }
+        <button onClick={()=> setSidebar(!sideBar)}>
+          <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+          </svg>
+        </button>
+      </div>
     </nav>
 
-  )
+  );
 }
