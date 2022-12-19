@@ -11,16 +11,15 @@ const App = () => {
 
   return (
     <div className="App">
-      <div className="navBar">
-        <Navbar />
-      </div>
-    
-        <Routes>
+      <Navbar />
+      
+      <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/toConsumer" element={<ToConsumer />} />
           <Route path="/about" element={<About />} />
-        </Routes>
-        <Footer />
+      </Routes>
+      
+      <Footer />
     </div>
   )
 }

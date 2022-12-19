@@ -14,8 +14,6 @@ import Contact from "./homepage-components/Contact";
 import Companies from "./homepage-components/Companies";
 
 const Home = () => {
-  
-
   return (
     <main className="Homepage">
       <Hero />

@@ -1,11 +1,18 @@
+.Declaration {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 .Declaration h3 {
   color: rgb(15, 9, 161);
   font-size: 30px;
   line-height: 39px;
   letter-spacing: 0.3px;
+  width:800px;
   text-align: center;
   margin-bottom: 8px;
+  
 }
 
 .Declaration .group {
@@ -77,4 +84,40 @@
 
 .Declaration .download-button button .icon:hover {
   height: 25px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .Declaration h3 {
+    font-size: 23px;
+    max-width: 600px;
+  }
+  .Declaration .group {
+    display: block;
+  }
+  .Declaration .contents {
+    width: 350px;
+    height: auto;
+    padding-bottom: 20px;
+  }
+  .Declaration .pdf-link {
+    margin-top: 15px;
+  }
+  .Declaration p {
+    margin: 15px 0 10px;
+  }
+  .Declaration .download-button button {
+    margin: 0;
+    height: 40px;
+    width: 150px;
+  }
+  .Declaration .download-button .button-correction {
+    position: static;
+  }
+  .Declaration .special {
+    height: auto;
+    padding: 0 20px 10px;
+  }
+  .Declaration .special .download-button button {
+    margin: 10px 0;
+  }
 }

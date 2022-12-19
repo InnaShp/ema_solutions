@@ -6,7 +6,7 @@ const ElectricityInfo = () => {
   return (
     <section className="ElectricityInfo" id="electricity">
       <div className="hero-2">
-        <h2>ПОСТАЧАЛЬНИК ЕЛЕКТРИЧНОЇ ЕНЕРГІЇ <br /> ДЛЯ БІЗНЕСУ ТА ПІДПРИЄМСТВ</h2>
+        <h2>ПОСТАЧАЛЬНИК ЕЛЕКТРИЧНОЇ ЕНЕРГІЇ ДЛЯ БІЗНЕСУ ТА ПІДПРИЄМСТВ</h2>
       </div>
       <div className="text">
         <p>

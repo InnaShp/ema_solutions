@@ -26,7 +26,7 @@ const ElectricityDeclaration = () => {
   return (
     <section className="Declaration" id="electricity-declaration">
       <h3>
-        Для укладання договору ознайомтесь, оберіть свою <br /> комерційну пропозицію та заповніть заяву-приєднання
+        Для укладання договору ознайомтесь, оберіть свою комерційну пропозицію та заповніть заяву-приєднання
       </h3>
       <AnimationOnScroll animateIn="animate__fadeIn" className="animate__slow	0.5s">
         <div className="group mt-3">

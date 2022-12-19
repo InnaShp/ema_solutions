@@ -6,7 +6,7 @@ const NaturalGasInfo = () => {
   return (
     <section className="NaturalGasInfo" id="gas">
       <div className="hero-3">
-        <h2>ПОСТАЧАЛЬНИК ПРИРОДНОГО ГАЗУ <br /> ДЛЯ БІЗНЕСУ ТА ПІДПРИЄМСТВ</h2>
+        <h2>ПОСТАЧАЛЬНИК ПРИРОДНОГО ГАЗУ ДЛЯ БІЗНЕСУ ТА ПІДПРИЄМСТВ</h2>
       </div>
       <div className="text special">
         <p>
