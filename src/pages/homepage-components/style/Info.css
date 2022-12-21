@@ -67,12 +67,25 @@
   }
   .ElectricityInfo .hero-2 h2, .NaturalGasInfo .hero-3 h2 {
     font-size: 30px;
-    max-width: 500px;
+    width: 500px;
   }
   .text {
     margin: 0;
   }
   .text p {
-    max-width: 780px;
+    width: 780px;
+  }
+}
+@media only screen and (max-width: 780px) {
+  .text p {
+    width: 500px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .ElectricityInfo .hero-2 h2, .NaturalGasInfo .hero-3 h2 {
+    width: auto;
+  }
+  .text p {
+    width: 300px;
   }
 }

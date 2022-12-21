@@ -27,3 +27,17 @@
   background-color: #fff;
   color: #180df1;
 }
+@media only screen and (max-width: 1000px) {
+  .GeneralInfo {
+    height: 240px;
+    padding: 30px 0 ;
+    margin-bottom: 10px;
+  }
+  .GeneralInfo h1 {
+    font-size: 40px;
+  }
+  .GeneralInfo p {
+    font-size: 16px;
+    margin-bottom: 30px;
+  }
+}

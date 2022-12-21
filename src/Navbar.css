@@ -29,20 +29,7 @@
   display: none;
 }
 
-@media only screen and (max-width: 1000px) {
-  .nav .menu {
-    display: none;
-  }
 
-  .sideBarButton {
-    display: block;
-  }
-  .sideBarButton button {
-    border: none;
-    background-color: #fff;
-    
-  }
-}
 
 .nav span{
   text-shadow: rgb(0 0 0 / 40%) 0px 4px 5px;
@@ -101,3 +88,27 @@
   color: #000;
 }
 
+@media only screen and (max-width: 1000px) {
+  .nav {
+    padding: 0;
+    position: static;
+  }
+  .nav .menu {
+    display: none;
+  }
+
+  .sideBarButton {
+    display: block;
+  }
+  .sideBarButton button {
+    border: none;
+    background-color: #fff;
+  }
+  .nav span {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .nav .logo {
+    height: 60px;
+  }
+}

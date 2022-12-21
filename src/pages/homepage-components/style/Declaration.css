@@ -121,3 +121,9 @@
     margin: 10px 0;
   }
 }
+@media only screen and (max-width: 600px) {
+  .Declaration h3 {
+    font-size: 23px;
+    max-width: 300px;
+  }
+}

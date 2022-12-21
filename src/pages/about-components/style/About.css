@@ -71,7 +71,22 @@
   transition: all 200ms ease-in-out;
   background-color: #fff;
   margin-top: 50px;
+  text-decoration: none;
+  color: #000;
 }
 .Feedback a:hover {
   color: rgb(15, 9, 161);;
+}
+@media only screen and (max-width: 1000px) {
+  .AboutLicenses ul {
+    width: auto;
+    margin: 30px;
+  }
+  .AboutLicenses a {
+    font-size: 17px;
+    line-height: 35px;
+  }
+  .Feedback {
+    height: 240px;
+  }
 }

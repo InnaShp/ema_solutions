@@ -22,3 +22,14 @@
   font-size: 14px;
   line-height: 22px;
 }
+@media only screen and (max-width: 1000px) {
+  .Data {
+    margin: 70px 0;
+  }
+  .Data h2 {
+    font-size: 25px;
+  }
+  .Data li {
+    margin: 30px 0 0;
+  }
+}

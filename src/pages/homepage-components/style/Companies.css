@@ -14,3 +14,15 @@
   margin: 0 35px;
   text-align: center;
 }
+@media only screen and (max-width: 1000px) {
+  .Companies {
+    height: auto;
+    
+  }
+  .Companies .images-group {
+    flex-direction: column;
+  }
+  .Companies .images-group img {
+    margin: 35px 0;
+  }
+}

@@ -50,7 +50,8 @@
   }
   .Contact .group-item {
     margin: 30px 0 0;
-    width: 460px;
+    max-width: 460px;
+    padding: 0 40px;
   
   }
   .Contact h4 {
@@ -58,7 +59,7 @@
   }
 }
 @media only screen and (max-width: 460px) {
-  .Contact .group-item {
+  .Contact .group {
     width: 300;
   }
 }
