@@ -41,8 +41,8 @@ const GasDeclaration = () => {
                 </a>
             </div>
             <div className="contents special">
-              <a href={rightsOfSuplierPdf} target="_blank" className="pdf-link" rel="noreferrer">Права та обов'язки постачальника природного газу</a>
-              <a href={rightsOfSuplierPdf} className="download-button" target="_blank" rel="noreferrer">
+              <a href="https://zakon.rada.gov.ua/laws/show/z1382-15#Text" target="_blank" className="pdf-link" rel="noreferrer">Правила постачання природного газу</a>
+              <a href="https://zakon.rada.gov.ua/laws/show/z1382-15#Text" className="download-button" target="_blank" rel="noreferrer">
                 <button >
                   <svg data-bbox="37 20 126 160" viewBox="0 0 200 200" className="icon" xmlns="http://www.w3.org/2000/svg" data-type="shape">
                     <g>
@@ -54,8 +54,8 @@ const GasDeclaration = () => {
               </a>
             </div>
             <div className="contents special">
-              <a href={disputeResolutionPdf} target="_blank" className="pdf-link" rel="noreferrer">Порядок вирішення спорів</a>
-              <a href={disputeResolutionDoc} download="ЕМА_СОЛЮШЕНЗ_Порядок вирішення спорів газdocx.docx" className="download-button" target="_blank" rel="noreferrer">
+              <a href="https://www.nerc.gov.ua/sferi-diyalnosti/prirodnij-gaz/pobutovi-spozhivachi/ukladennya-dogovoriv-pobutovimi-spozhivachami/ukladannya-dogovoru-z-postachannya-prirodnogo-gazu" target="_blank" className="pdf-link" rel="noreferrer">Порядок укладання договору постачання природного газу</a>
+              <a href="https://www.nerc.gov.ua/sferi-diyalnosti/prirodnij-gaz/pobutovi-spozhivachi/ukladennya-dogovoriv-pobutovimi-spozhivachami/ukladannya-dogovoru-z-postachannya-prirodnogo-gazu" className="download-button" target="_blank" rel="noreferrer">
                 <button >
                   <svg data-bbox="37 20 126 160" viewBox="0 0 200 200" className="icon" xmlns="http://www.w3.org/2000/svg" data-type="shape">
                     <g>
@@ -69,8 +69,8 @@ const GasDeclaration = () => {
           </div>
           <div className="group-item">
             <div className="contents special">
-              <a href="https://zakon.rada.gov.ua/laws/show/z1382-15#Text" target="_blank" className="pdf-link" rel="noreferrer">Правила постачання природного газу</a>
-              <a href="https://zakon.rada.gov.ua/laws/show/z1382-15#Text" className="download-button" target="_blank" rel="noreferrer">
+              <a href={rightsOfSuplierPdf} target="_blank" className="pdf-link" rel="noreferrer">Права та обов'язки постачальника природного газу</a>
+              <a href={rightsOfSuplierPdf} className="download-button" target="_blank" rel="noreferrer">
                 <button >
                   <svg data-bbox="37 20 126 160" viewBox="0 0 200 200" className="icon" xmlns="http://www.w3.org/2000/svg" data-type="shape">
                     <g>
@@ -95,8 +95,8 @@ const GasDeclaration = () => {
               </a>
             </div>
             <div className="contents special">
-              <a href={pricingPdf} target="_blank" className="pdf-link" rel="noreferrer">Ціноутворення</a>
-              <a href={pricingPdf} className="download-button" target="_blank" rel="noreferrer">
+              <a href={consumerRightsPdf} target="_blank" className="pdf-link" rel="noreferrer">Права та обов'язки споживача природного газу</a>
+              <a href={consumerRightsPdf} className="download-button" target="_blank" rel="noreferrer">
                 <button >
                   <svg data-bbox="37 20 126 160" viewBox="0 0 200 200" className="icon" xmlns="http://www.w3.org/2000/svg" data-type="shape">
                     <g>
@@ -110,8 +110,8 @@ const GasDeclaration = () => {
           </div>
           <div className="group-item">
             <div className="contents special">
-              <a href="https://www.nerc.gov.ua/sferi-diyalnosti/prirodnij-gaz/pobutovi-spozhivachi/ukladennya-dogovoriv-pobutovimi-spozhivachami/ukladannya-dogovoru-z-postachannya-prirodnogo-gazu" target="_blank" className="pdf-link" rel="noreferrer">Порядок укладання договору постачання природного газу</a>
-              <a href="https://www.nerc.gov.ua/sferi-diyalnosti/prirodnij-gaz/pobutovi-spozhivachi/ukladennya-dogovoriv-pobutovimi-spozhivachami/ukladannya-dogovoru-z-postachannya-prirodnogo-gazu" className="download-button" target="_blank" rel="noreferrer">
+              <a href={disputeResolutionPdf} target="_blank" className="pdf-link" rel="noreferrer">Порядок вирішення спорів</a>
+              <a href={disputeResolutionDoc} download="ЕМА_СОЛЮШЕНЗ_Порядок вирішення спорів газdocx.docx" className="download-button" target="_blank" rel="noreferrer">
                 <button >
                   <svg data-bbox="37 20 126 160" viewBox="0 0 200 200" className="icon" xmlns="http://www.w3.org/2000/svg" data-type="shape">
                     <g>
@@ -123,8 +123,8 @@ const GasDeclaration = () => {
               </a>
             </div>
             <div className="contents special">
-              <a href={consumerRightsPdf} target="_blank" className="pdf-link" rel="noreferrer">Права та обов'язки споживача природного газу</a>
-              <a href={consumerRightsPdf} className="download-button" target="_blank" rel="noreferrer">
+              <a href={pricingPdf} target="_blank" className="pdf-link" rel="noreferrer">Ціноутворення</a>
+              <a href={pricingPdf} className="download-button" target="_blank" rel="noreferrer">
                 <button >
                   <svg data-bbox="37 20 126 160" viewBox="0 0 200 200" className="icon" xmlns="http://www.w3.org/2000/svg" data-type="shape">
                     <g>

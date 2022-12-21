@@ -8,7 +8,7 @@ const ListOfResolutionsGas = () => {
   return(
     <section className="ListOfResolutions Gas">
       <h2>ОФІЦІЙНІ ДОКУМЕНТИ ГАЗ</h2>
-      <AnimationOnScroll animateIn="animate__fadeInLeft" className="animate__slow	0.5s">
+      <AnimationOnScroll animateIn="animate__fadeInLeft" className="animate__slow	0.5s list-container">
         <ul>
           <li>
             <a href="https://zakon.rada.gov.ua/laws/show/329-19#Text" target="_blank" rel="noreferrer noopener">

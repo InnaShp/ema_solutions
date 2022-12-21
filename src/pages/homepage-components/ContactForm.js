@@ -58,23 +58,23 @@ const ContactForm = () => {
   return (
     <div className="ContactForm">
       <form className="form" onSubmit={onSubmit}>
-        <div className="row">
-          <div className="row mb-3 p-0">
-            <div className="col-6">
+        
+          <div className="element-container mb-3">
+            <div className="element pe-2">
               <label className="form-label" htmlFor="firstName">Ім'я</label>
               <input className="form__input" type="text" required onChange = {(e) => handleInputChange(e)} value={firstName} id="firstName" />        
             </div>
-            <div className="col-6">
+            <div className="element ps-2">
               <label className="form-label" htmlFor="lastName">Прізвище</label>
               <input  type="text" id="lastName" className="form__input" required onChange = {(e) => handleInputChange(e)} value={lastName} /> 
             </div>
           </div>
-          <div className="row mb-3 p-0">
-            <div className="col-6">
+          <div className="element-container mb-3">
+            <div className="element pe-2">
               <label className="form-label" htmlFor="email">Ел. пошта</label>
               <input  type="email" id="email" className="form__input" required onChange = {(e) => handleInputChange(e)} value={email} />
             </div>
-            <div className="col-6">
+            <div className="element ps-2">
               <label className="form-label" htmlFor="phone">Телефон</label>
               <input  type="tel" id="phone" className="form__input" onChange = {(e) => handleInputChange(e)} value={phone} />
             </div>
@@ -94,7 +94,6 @@ const ContactForm = () => {
           <div className="data-field">
             <input type="submit" className="button" />
           </div>
-        </div>
       </form>
         {formStatus && <div className="status-container">
           <div className="info">Інформація надіслана</div>

@@ -1,5 +1,13 @@
 .ContactForm .form {
-  max-width: 460px;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+.ContactForm .element-container {
+  display: flex;
+}
+.ContactForm .element {
+  min-width: 230px;
 }
 .ContactForm .data-field {
   display: flex;
@@ -32,4 +40,22 @@
 }
 .ContactForm .status-container {
   text-align: center;
+}
+
+@media only screen and (max-width: 1000px) {
+  .ContactForm .form {
+    width: 460px;
+  }
+  .ContactForm .element-container {
+    flex-direction: column;
+  }
+  .ContactForm .element {
+    padding: 0 !important;
+  }
+  
+}
+@media only screen and (max-width: 460px) {
+  .ContactForm .form {
+    width: 300px;
+  }
 }

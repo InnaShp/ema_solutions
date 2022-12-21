@@ -54,3 +54,35 @@
   padding: 0;
   width: 520px;
 }
+
+@media only screen and (max-width: 1000px) {
+  .ForConsumers {
+    margin: 30px 0 0;
+    padding: 0 30px;
+    
+  } 
+  .ForConsumers h2 {
+    font-size: 32px;
+  }
+  .ForConsumers h2, .ForConsumers small {
+    max-width: 520px;
+  }
+  .ForConsumers ul {
+    padding-bottom: 30px;
+    max-width: 520px;
+  }
+  .ForConsumers .group {
+    flex-direction: column;
+  }
+  .ForConsumers li {
+    padding-top: 30px;
+  }
+  .ForConsumers li .name {
+    width: auto;
+    text-align: left;
+    margin-bottom: 10px;
+  }
+  .ForConsumers p {
+    width: auto;
+  }
+}
