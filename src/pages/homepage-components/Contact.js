@@ -3,7 +3,7 @@ import ContactForm from "./ContactForm";
 import "./style/Contact.css";
 
 const Contact = () => {
-
+  
   return (
     <section className="Contact" id="contact">
       <div className="group m-0">

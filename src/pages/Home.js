@@ -15,7 +15,7 @@ import Companies from "./homepage-components/Companies";
 
 const Home = () => {
   return (
-    <main className="Homepage">
+    <main className="Homepage" id="home">
       <Hero />
       <ElectricityInfo />
       <ElectricityDeclaration />

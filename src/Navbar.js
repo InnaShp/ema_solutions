@@ -18,7 +18,7 @@ export default function Navbar() {
         </a>
       </div>
       <div className="menu">
-        <a className="main" href="/#hero">Головна</a>
+        <a className="main" href="/">Головна</a>
         <div className="vl"/>
         <a href="/#electricity">Електроенергія</a>
         <div className="vl"/>
@@ -40,7 +40,7 @@ export default function Navbar() {
             <NavDropdown.Divider />
             <NavDropdown.Item href="#action/3.4">
               <div className="dropdown-item">
-                <a href="/ToConsumer#consumer">Інформація споживачу</a>
+                <a href="/ToConsumer">Інформація споживачу</a>
               </div>
             </NavDropdown.Item>
           </NavDropdown>
@@ -52,7 +52,7 @@ export default function Navbar() {
           <NavDropdown title="Еще" id="basic-nav-dropdown">
             <NavDropdown.Item href="#action/3.1">
               <div className="dropdown-item">
-                <a href="/about/#feedback">Про нас</a>
+                <a href="/about">Про нас</a>
               </div>
             </NavDropdown.Item>
           </NavDropdown>

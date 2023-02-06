@@ -10,17 +10,15 @@ import Footer from "./pages/homepage-components/Footer";
 const App = () => {
 
   return (
-    <div className="App">
-      <Navbar />
-      
-      <Routes>
+      <div className="App">
+        <Navbar />
+        <Routes>
           <Route path="/toConsumer" element={<ToConsumer />} />
           <Route path="/about" element={<About />} />
           <Route path="/" element={<Home />} />
-      </Routes>
-      
-      <Footer />
-    </div>
+        </Routes>
+        <Footer />
+      </div>
   )
 }
 
